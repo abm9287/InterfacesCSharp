@@ -5,10 +5,22 @@ namespace Carreras.Implementacion
 {
     public class CarreraDesarrolloDeSoftware : ICarrera
     {
+        private string nombre;
+        private List<string> carrerasUniversitarias;
+
+        public string Nombre { get { return nombre; } set { nombre = value; } }
+        public List<string> CarrerasUniversitarias { get { return carrerasUniversitarias; } set { carrerasUniversitarias = value; } }
+
 
         //Utilizamos verbos para los nombres de los métodos 
-       
-
+        public string Aprender()
+        {
+            return "Estoy aprendiendo Base de Datos en SQLServer ";
+        }
+        public string Estudiar()
+        {
+            return "Estoy estudiante C# .NET";
+        }
         public string Enseñar()
         {
             return "Estoy enseñando los comandos básicos de la consola Linux ";

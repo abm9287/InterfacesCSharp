@@ -1,12 +1,17 @@
 ﻿using System.Collections.Generic;
 using Carreras.Interface;
-
 namespace Carreras.Implementacion
 
 {
     public class CarreraMedicina : ICarrera
     {
-        
+        private string nombre;
+        private List<string> carrerasUniversitarias;
+
+        public string Nombre { get { return nombre; } set { nombre = value; } }
+        public List<string> CarrerasUniversitarias { get { return carrerasUniversitarias; } set { carrerasUniversitarias = value; } }
+
+
         //Utilizamos verbos para los nombres de los métodos 
         public string Aprender()
         {

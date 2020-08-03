@@ -4,9 +4,4 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Carreras.Entidad\Carreras.Entidad.csproj" />
-    <ProjectReference Include="..\Carreras.Interface\Carreras.Interface.csproj" />
-  </ItemGroup>
-
 </Project>

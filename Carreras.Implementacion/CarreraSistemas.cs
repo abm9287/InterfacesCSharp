@@ -13,6 +13,8 @@ namespace Carreras.Implementacion
         public string Nombre { get { return nombre; } set { nombre = value; } }
         public List<string> CarrerasUniversitarias { get { return carrerasUniversitarias; } set { carrerasUniversitarias =  value; } }
 
+
+
         //Utilizamos verbos para los nombres de los métodos 
         public string Aprender()
         {

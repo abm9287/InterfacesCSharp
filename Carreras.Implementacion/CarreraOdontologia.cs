@@ -5,8 +5,18 @@ namespace Carreras.Implementacion
 {
     public class CarreraOdontologia : ICarrera
     {
-        
+        private string nombre;
+        private List<string> carrerasUniversitarias;
+
+        public string Nombre { get { return nombre; } set { nombre = value; } }
+        public List<string> CarrerasUniversitarias { get { return carrerasUniversitarias; } set { carrerasUniversitarias = value; } }
+
+
         //Utilizamos verbos para los nombres de los métodos 
+        public string Aprender()
+        {
+            return "Estoy aprendiendo Ortondoncia y los instrumentos médicos que se usan ";
+        }
         public string Estudiar()
         {
             return "Estoy estudiando los músculos del abdomen ";

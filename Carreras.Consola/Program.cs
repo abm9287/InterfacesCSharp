@@ -12,7 +12,9 @@ namespace Carreras.Consola
             Console.WriteLine("Hello World!");
             Carrera MiCarrera = new Carrera();
 
-            MiCarrera.ProgramarActividadesSistemas(new Carrera());
+            
+          
+
 
             Console.ReadKey();
         }
