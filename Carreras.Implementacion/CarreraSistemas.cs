@@ -11,13 +11,14 @@ namespace Carreras.Implementacion
       
 
         public string Nombre { get { return nombre; } set { nombre = value; } }
-        public List<string> CarrerasUniversitarias { get { return carrerasUniversitarias; } set { value = carrerasUniversitarias; } }
+        public List<string> CarrerasUniversitarias { get { return carrerasUniversitarias; } set { carrerasUniversitarias =  value; } }
 
         //Utilizamos verbos para los nombres de los métodos 
         public string Aprender()
         {
             return $"Estoy aprendiendo {nombre} y estoy estudiando {carrerasUniversitarias[0]} ";
         }
+
         public string Estudiar()
         {
             return "Estoy estudiando los ataques cibernéticos ' Ethical Hacking, un enfoque metodológico para profesionales'   ";
