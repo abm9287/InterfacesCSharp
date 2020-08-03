@@ -1,17 +1,12 @@
 ﻿using System.Collections.Generic;
+using Carreras.Interface;
 
-namespace Carreras.Interface
+namespace Carreras.Implementacion 
 {
     public class CarreraArquitectura : ICarrera
 
     {
-        //los sustantivos definen atributos
-        private List<string> carrerasUniversitarias;
-        private string nombre;
-
-        public string Nombre { get { return nombre; } set { value = nombre; } }
-        public List<string> CarrerasUniversitarias { get { return carrerasUniversitarias;  } set { value = carrerasUniversitarias; } }
-
+        
 
         //Utilizamos verbos para los nombres de los métodos 
         public string Aprender()

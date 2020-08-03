@@ -1,21 +1,16 @@
 ﻿using System.Collections.Generic;
+using Carreras.Interface;
 
+namespace Carreras.Implementacion
 
-namespace Carreras.Interface
 {
-    public class CarreraOdontologia : ICarrera
+    public class CarreraMedicina : ICarrera
     {
-        //los sustantivos definen atributos
-        private List<string> carrerasUniversitarias;
-        private string nombre;
-
-        public string Nombre { get { return nombre; } set { value = nombre; } }
-        public List<string> CarrerasUniversitarias { get { return carrerasUniversitarias; } set { value = carrerasUniversitarias; } }
-
+        
         //Utilizamos verbos para los nombres de los métodos 
         public string Aprender()
         {
-            return $"Estoy aprendiendo {nombre} y estoy estudiando {carrerasUniversitarias[0]} ";
+            return "Estoy aprendiendo primeros auxilios";
         }
         public string Estudiar()
         {
@@ -33,6 +28,6 @@ namespace Carreras.Interface
         {
             return "Estoy leyenedo los componentes de cura contra el COVID";
         }
-        
+       
     }
 }

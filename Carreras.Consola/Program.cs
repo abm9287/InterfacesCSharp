@@ -1,5 +1,7 @@
 ﻿using System;
-using Carreras.Interface; 
+using Carreras.Entidad;
+using Carreras.Implementacion;
+using Carreras.Negocio;
 
 namespace Carreras.Consola
 {
@@ -8,11 +10,9 @@ namespace Carreras.Consola
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            CarreraProfesional MiCarrera = new CarreraProfesional();
+            Carrera MiCarrera = new Carrera();
 
-            
-
-            var carrera1 = new CarreraDesarrolloDeSoftware();
+            MiCarrera.ProgramarActividadesSistemas(new Carrera());
 
             Console.ReadKey();
         }

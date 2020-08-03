@@ -1,20 +1,18 @@
 ﻿using System.Collections.Generic;
+using Carreras.Interface; 
 
-namespace Carreras.Interface
+namespace Carreras.Implementacion
 {
-    public class CarreraProfesional
+    public class CarreraProfesional : ICarrera
     {
-        private List<string> carrerasUniversitarias;
-        private string nombre;
+      
 
-        public string Nombre { get { return nombre; } set { value = nombre; } }
-        public List<string> CarrerasUniversitarias { get { return carrerasUniversitarias; } set { value = carrerasUniversitarias; } }
-
-
+       
+        
         //Utilizamos verbos para los nombres de los métodos 
         public string Aprender()
         {
-            return $"Estoy aprendiendo {nombre} y estoy estudiando {carrerasUniversitarias[0]} ";
+            return "Estoy aprendiendo y estoy estudiando" ;
         }
         public string Estudiar()
         {

@@ -1,8 +1,8 @@
-﻿
+﻿using Carreras.Entidad;
 
-namespace Carreras.Interface
+namespace Carreras.Negocio
 {
-    public class DepartamentoAcademico
+    public class DepartamentoAcademico 
     {
         public ICarrera Carrera { get; set; }
         public string AdministrarCarrera(ICarrera carrera)
@@ -18,18 +18,10 @@ namespace Carreras.Interface
        
         public string ProgramarActividadesSistemas()
         {
-            Carrera = new CarreraSistemas();
+            //Carrera = new CarreraSistemas(); ToDo
             return "Configuré pensum actual 2020-2021";
         }
-        public string ProgramarActividadesVarias()
-        {
-            Carrera = new CarreraDesarrolloDeSoftware;
-            return "Se integró un nuevo Ingeniero para que enseñe BDD"; 
-        }
-        public string ProgramarOtrasActividades()
-        {
-            return "Organice y plantee nuevas actividades académicas que fortalecerán los concocimientos académicos que corresponde a cada materia  ";
-        }
+
 
     }
 }
