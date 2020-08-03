@@ -8,11 +8,13 @@ namespace Carreras.Consola
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Carrera MiCarrera = new Carrera();
+            CarreraProfesional MiCarrera = new CarreraProfesional();
 
-            //var carrera1 = new CarreraDesarrolloDeSoftware();
             
 
+            var carrera1 = new CarreraDesarrolloDeSoftware();
+
+            Console.ReadKey();
         }
     }
 }

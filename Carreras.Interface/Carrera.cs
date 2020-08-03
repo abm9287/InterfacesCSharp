@@ -1,28 +1,16 @@
-﻿using System;
+﻿using System.Collections.Generic;
+
 
 namespace Carreras.Interface
 {
     public class Carrera
     {
-        public string Estudiar()
-        {
-            return "Estoy estudiando ";
-        }
-        public string Enseñar()
-        {
-            return "Estoy enseñando  ";
-        }
-        public string Trabajar()
-        {
-            return "Estoy trabajando  ";
-        }
-        public string Leer()
-        {
-            return "Estoy leyendo  ";
-        }
-        public string Aprender()
-        {
-            return "Estoy aprendiendo  ";
-        }
+        public int Id { get; set; }
+        public string Nombre { get; set; }
+        public string Apellido {get; set; }
+
+        public List<string> CarrerasUniversitarias { get; set; }
+
+
     }
 }

@@ -2,15 +2,13 @@
 
 namespace Carreras.Interface
 {
-    public class CarreraArquitectura : ICarrera
-
+    public class CarreraProfesional
     {
-        //los sustantivos definen atributos
         private List<string> carrerasUniversitarias;
         private string nombre;
 
         public string Nombre { get { return nombre; } set { value = nombre; } }
-        public List<string> CarrerasUniversitarias { get { return carrerasUniversitarias;  } set { value = carrerasUniversitarias; } }
+        public List<string> CarrerasUniversitarias { get { return carrerasUniversitarias; } set { value = carrerasUniversitarias; } }
 
 
         //Utilizamos verbos para los nombres de los métodos 
@@ -20,20 +18,20 @@ namespace Carreras.Interface
         }
         public string Estudiar()
         {
-            return "Estoy estudiando los diferentes elementos de acero  ";
+            return "Estoy estudiando ";
         }
         public string Enseñar()
         {
-            return "Estoy enseñando los tipos de materiales Ingenieros ";
+            return "Estoy enseñando  ";
         }
         public string Trabajar()
         {
-            return "Estoy trabajando en la nueva carretera vía Samborondón ";
+            return "Estoy trabajando  ";
         }
         public string Leer()
         {
-            return "Estoy leyendo los folletos de Construcción en Concreto y Acero ";
+            return "Estoy leyendo  ";
         }
-        
+       
     }
 }
