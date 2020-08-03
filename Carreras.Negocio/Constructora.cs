@@ -1,6 +1,6 @@
-﻿using Carreras.Interface;
+﻿using Carreras.Interface; 
 
-namespace Carreras.Negocio
+namespace Carreras.Negocio 
 {
     public class Constructora 
     {

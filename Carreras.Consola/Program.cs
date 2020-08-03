@@ -1,7 +1,7 @@
 ﻿using System;
-using Carreras.Entidad;
 using Carreras.Implementacion;
 using Carreras.Negocio;
+
 
 namespace Carreras.Consola
 {
@@ -10,13 +10,21 @@ namespace Carreras.Consola
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Carrera MiCarrera = new Carrera();
+            Constructora MiCarrera = new Constructora();
+
+            MiCarrera.AdministrarCarrera(new CarreraOdontologia());
+            MiCarrera.ProgramarTareas();
+
+            var carrera1 = new CarreraSistemas();
+            carrera1.Nombre = "Klever";
 
             
-          
-
+            MiCarrera.ProgramarOtrasActividades();
+            MiCarrera.ProgramarTareas();
 
             Console.ReadKey();
+
+            
         }
     }
 }
