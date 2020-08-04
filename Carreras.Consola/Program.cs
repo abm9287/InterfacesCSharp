@@ -23,8 +23,6 @@ namespace Carreras.Consola
             MiCarrera.ProgramarTareas();
 
             Console.ReadKey();
-
-            
         }
     }
 }
