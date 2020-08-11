@@ -1,4 +1,4 @@
-# InterfacesCSharp - Interfaces-Contratación de personas.
+# InterfacesCSharp - Interfaces
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 #APLICACIÓN DE CONSOLA
